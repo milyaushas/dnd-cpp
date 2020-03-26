@@ -5,6 +5,8 @@
 #include <cstddef>
 #include <array>
 
+#include <QWidget>
+
 enum class Type {
 	emptyField,
 	obstacle,
@@ -75,6 +77,7 @@ public:
 	Character& hero_; 
 public:
 	Game(Character& hero) : hero_(hero) {};
+public:
 	void runGame();
 };
 

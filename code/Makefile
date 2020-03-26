@@ -1,4 +1,4 @@
-CFLAGS = -g -Iinclude 
+CFLAGS = -g -Iinclude -Wc++11-extensions
 
 all: DnD
 

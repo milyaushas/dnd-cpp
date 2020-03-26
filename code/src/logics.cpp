@@ -1,4 +1,4 @@
-#include "logics.h"
+#include "include/logics.h"
 
 
 void Encounter::changeType(Type type) {
@@ -195,8 +195,4 @@ void Game::runGame() {
 
 	}
 	std::cout << "YOU WON!!!!!!!!!!!!!!!!!!!!!!!!!!!\n";
-
-
-
-
 }
