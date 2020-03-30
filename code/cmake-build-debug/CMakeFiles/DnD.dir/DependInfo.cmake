@@ -5,9 +5,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/DnD_autogen/mocs_compilation.cpp" "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles/DnD.dir/DnD_autogen/mocs_compilation.cpp.o"
-  "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_window.cpp" "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles/DnD.dir/src/game_window.cpp.o"
+  "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/dice.cpp" "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles/DnD.dir/src/dice.cpp.o"
+  "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_board.cpp" "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles/DnD.dir/src/game_board.cpp.o"
+  "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_menu.cpp" "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles/DnD.dir/src/game_menu.cpp.o"
+  "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/gift.cpp" "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles/DnD.dir/src/gift.cpp.o"
   "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/logics.cpp" "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles/DnD.dir/src/logics.cpp.o"
   "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/main.cpp" "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles/DnD.dir/src/main.cpp.o"
+  "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/message.cpp" "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles/DnD.dir/src/message.cpp.o"
+  "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/obstacle.cpp" "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles/DnD.dir/src/obstacle.cpp.o"
+  "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/player.cpp" "/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles/DnD.dir/src/player.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

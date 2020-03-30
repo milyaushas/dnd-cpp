@@ -11,5 +11,5 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
-add_executable(DnD src/main.cpp src/logics.cpp include/logics.h include/game_window.h src/game_window.cpp)
+add_executable(DnD src/main.cpp src/logics.cpp include/logics.h include/game_menu.h src/game_menu.cpp include/game_board.h src/game_board.cpp include/player.h src/player.cpp include/dice.h src/dice.cpp include/obstacle.h src/obstacle.cpp include/gift.h src/gift.cpp include/message.h src/message.cpp)
 target_link_libraries(DnD Qt5::Widgets)

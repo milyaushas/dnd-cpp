@@ -1,4 +1,4 @@
-#include "include/game_window.h"
+#include "include/game_menu.h"
 #include "include/logics.h"
 #include <QCoreApplication>
 #include <QApplication>
@@ -15,4 +15,5 @@ GameWindow::GameWindow(Game &game, QWidget *parent) : QWidget(parent), game_(gam
 
 void GameWindow::showGame() {
     game_.runGame();
+
 }

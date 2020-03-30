@@ -121,19 +121,55 @@
 		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/DnD_autogen/mocs_compilation.cpp">
 			<Option target="DnD"/>
 		</Unit>
-		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/include/game_window.h">
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/include/dice.h">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/include/game_board.h">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/include/game_menu.h">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/include/gift.h">
 			<Option target="DnD"/>
 		</Unit>
 		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/include/logics.h">
 			<Option target="DnD"/>
 		</Unit>
-		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_window.cpp">
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/include/message.h">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/include/obstacle.h">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/include/player.h">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/dice.cpp">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_board.cpp">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_menu.cpp">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/gift.cpp">
 			<Option target="DnD"/>
 		</Unit>
 		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/logics.cpp">
 			<Option target="DnD"/>
 		</Unit>
 		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/main.cpp">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/message.cpp">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/obstacle.cpp">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/player.cpp">
 			<Option target="DnD"/>
 		</Unit>
 		<Unit filename="/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/CMakeLists.txt">

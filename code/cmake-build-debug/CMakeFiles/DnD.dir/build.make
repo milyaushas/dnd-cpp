@@ -96,25 +96,109 @@ CMakeFiles/DnD.dir/src/logics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DnD.dir/src/logics.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/logics.cpp -o CMakeFiles/DnD.dir/src/logics.cpp.s
 
-CMakeFiles/DnD.dir/src/game_window.cpp.o: CMakeFiles/DnD.dir/flags.make
-CMakeFiles/DnD.dir/src/game_window.cpp.o: ../src/game_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DnD.dir/src/game_window.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DnD.dir/src/game_window.cpp.o -c /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_window.cpp
+CMakeFiles/DnD.dir/src/game_menu.cpp.o: CMakeFiles/DnD.dir/flags.make
+CMakeFiles/DnD.dir/src/game_menu.cpp.o: ../src/game_menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DnD.dir/src/game_menu.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DnD.dir/src/game_menu.cpp.o -c /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_menu.cpp
 
-CMakeFiles/DnD.dir/src/game_window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DnD.dir/src/game_window.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_window.cpp > CMakeFiles/DnD.dir/src/game_window.cpp.i
+CMakeFiles/DnD.dir/src/game_menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DnD.dir/src/game_menu.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_menu.cpp > CMakeFiles/DnD.dir/src/game_menu.cpp.i
 
-CMakeFiles/DnD.dir/src/game_window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DnD.dir/src/game_window.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_window.cpp -o CMakeFiles/DnD.dir/src/game_window.cpp.s
+CMakeFiles/DnD.dir/src/game_menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DnD.dir/src/game_menu.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_menu.cpp -o CMakeFiles/DnD.dir/src/game_menu.cpp.s
+
+CMakeFiles/DnD.dir/src/game_board.cpp.o: CMakeFiles/DnD.dir/flags.make
+CMakeFiles/DnD.dir/src/game_board.cpp.o: ../src/game_board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DnD.dir/src/game_board.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DnD.dir/src/game_board.cpp.o -c /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_board.cpp
+
+CMakeFiles/DnD.dir/src/game_board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DnD.dir/src/game_board.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_board.cpp > CMakeFiles/DnD.dir/src/game_board.cpp.i
+
+CMakeFiles/DnD.dir/src/game_board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DnD.dir/src/game_board.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/game_board.cpp -o CMakeFiles/DnD.dir/src/game_board.cpp.s
+
+CMakeFiles/DnD.dir/src/player.cpp.o: CMakeFiles/DnD.dir/flags.make
+CMakeFiles/DnD.dir/src/player.cpp.o: ../src/player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DnD.dir/src/player.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DnD.dir/src/player.cpp.o -c /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/player.cpp
+
+CMakeFiles/DnD.dir/src/player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DnD.dir/src/player.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/player.cpp > CMakeFiles/DnD.dir/src/player.cpp.i
+
+CMakeFiles/DnD.dir/src/player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DnD.dir/src/player.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/player.cpp -o CMakeFiles/DnD.dir/src/player.cpp.s
+
+CMakeFiles/DnD.dir/src/dice.cpp.o: CMakeFiles/DnD.dir/flags.make
+CMakeFiles/DnD.dir/src/dice.cpp.o: ../src/dice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DnD.dir/src/dice.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DnD.dir/src/dice.cpp.o -c /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/dice.cpp
+
+CMakeFiles/DnD.dir/src/dice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DnD.dir/src/dice.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/dice.cpp > CMakeFiles/DnD.dir/src/dice.cpp.i
+
+CMakeFiles/DnD.dir/src/dice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DnD.dir/src/dice.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/dice.cpp -o CMakeFiles/DnD.dir/src/dice.cpp.s
+
+CMakeFiles/DnD.dir/src/obstacle.cpp.o: CMakeFiles/DnD.dir/flags.make
+CMakeFiles/DnD.dir/src/obstacle.cpp.o: ../src/obstacle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DnD.dir/src/obstacle.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DnD.dir/src/obstacle.cpp.o -c /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/obstacle.cpp
+
+CMakeFiles/DnD.dir/src/obstacle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DnD.dir/src/obstacle.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/obstacle.cpp > CMakeFiles/DnD.dir/src/obstacle.cpp.i
+
+CMakeFiles/DnD.dir/src/obstacle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DnD.dir/src/obstacle.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/obstacle.cpp -o CMakeFiles/DnD.dir/src/obstacle.cpp.s
+
+CMakeFiles/DnD.dir/src/gift.cpp.o: CMakeFiles/DnD.dir/flags.make
+CMakeFiles/DnD.dir/src/gift.cpp.o: ../src/gift.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DnD.dir/src/gift.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DnD.dir/src/gift.cpp.o -c /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/gift.cpp
+
+CMakeFiles/DnD.dir/src/gift.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DnD.dir/src/gift.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/gift.cpp > CMakeFiles/DnD.dir/src/gift.cpp.i
+
+CMakeFiles/DnD.dir/src/gift.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DnD.dir/src/gift.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/gift.cpp -o CMakeFiles/DnD.dir/src/gift.cpp.s
+
+CMakeFiles/DnD.dir/src/message.cpp.o: CMakeFiles/DnD.dir/flags.make
+CMakeFiles/DnD.dir/src/message.cpp.o: ../src/message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DnD.dir/src/message.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DnD.dir/src/message.cpp.o -c /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/message.cpp
+
+CMakeFiles/DnD.dir/src/message.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DnD.dir/src/message.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/message.cpp > CMakeFiles/DnD.dir/src/message.cpp.i
+
+CMakeFiles/DnD.dir/src/message.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DnD.dir/src/message.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milyausha/CPP_PROJECT/Dnd_cpp/code/src/message.cpp -o CMakeFiles/DnD.dir/src/message.cpp.s
 
 # Object files for target DnD
 DnD_OBJECTS = \
 "CMakeFiles/DnD.dir/DnD_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/DnD.dir/src/main.cpp.o" \
 "CMakeFiles/DnD.dir/src/logics.cpp.o" \
-"CMakeFiles/DnD.dir/src/game_window.cpp.o"
+"CMakeFiles/DnD.dir/src/game_menu.cpp.o" \
+"CMakeFiles/DnD.dir/src/game_board.cpp.o" \
+"CMakeFiles/DnD.dir/src/player.cpp.o" \
+"CMakeFiles/DnD.dir/src/dice.cpp.o" \
+"CMakeFiles/DnD.dir/src/obstacle.cpp.o" \
+"CMakeFiles/DnD.dir/src/gift.cpp.o" \
+"CMakeFiles/DnD.dir/src/message.cpp.o"
 
 # External object files for target DnD
 DnD_EXTERNAL_OBJECTS =
@@ -122,13 +206,19 @@ DnD_EXTERNAL_OBJECTS =
 DnD: CMakeFiles/DnD.dir/DnD_autogen/mocs_compilation.cpp.o
 DnD: CMakeFiles/DnD.dir/src/main.cpp.o
 DnD: CMakeFiles/DnD.dir/src/logics.cpp.o
-DnD: CMakeFiles/DnD.dir/src/game_window.cpp.o
+DnD: CMakeFiles/DnD.dir/src/game_menu.cpp.o
+DnD: CMakeFiles/DnD.dir/src/game_board.cpp.o
+DnD: CMakeFiles/DnD.dir/src/player.cpp.o
+DnD: CMakeFiles/DnD.dir/src/dice.cpp.o
+DnD: CMakeFiles/DnD.dir/src/obstacle.cpp.o
+DnD: CMakeFiles/DnD.dir/src/gift.cpp.o
+DnD: CMakeFiles/DnD.dir/src/message.cpp.o
 DnD: CMakeFiles/DnD.dir/build.make
 DnD: /Users/milyausha/qt/5.9.9/clang_64/lib/QtWidgets.framework/QtWidgets
 DnD: /Users/milyausha/qt/5.9.9/clang_64/lib/QtGui.framework/QtGui
 DnD: /Users/milyausha/qt/5.9.9/clang_64/lib/QtCore.framework/QtCore
 DnD: CMakeFiles/DnD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DnD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/milyausha/CPP_PROJECT/Dnd_cpp/code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable DnD"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DnD.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

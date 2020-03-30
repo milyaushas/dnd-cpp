@@ -163,32 +163,113 @@ DnD_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/DnD_autogen/mocs_compilation.cpp.s
 .PHONY : DnD_autogen/mocs_compilation.cpp.s
 
-src/game_window.o: src/game_window.cpp.o
+src/dice.o: src/dice.cpp.o
 
-.PHONY : src/game_window.o
+.PHONY : src/dice.o
 
 # target to build an object file
-src/game_window.cpp.o:
-	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/game_window.cpp.o
-.PHONY : src/game_window.cpp.o
+src/dice.cpp.o:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/dice.cpp.o
+.PHONY : src/dice.cpp.o
 
-src/game_window.i: src/game_window.cpp.i
+src/dice.i: src/dice.cpp.i
 
-.PHONY : src/game_window.i
+.PHONY : src/dice.i
 
 # target to preprocess a source file
-src/game_window.cpp.i:
-	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/game_window.cpp.i
-.PHONY : src/game_window.cpp.i
+src/dice.cpp.i:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/dice.cpp.i
+.PHONY : src/dice.cpp.i
 
-src/game_window.s: src/game_window.cpp.s
+src/dice.s: src/dice.cpp.s
 
-.PHONY : src/game_window.s
+.PHONY : src/dice.s
 
 # target to generate assembly for a file
-src/game_window.cpp.s:
-	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/game_window.cpp.s
-.PHONY : src/game_window.cpp.s
+src/dice.cpp.s:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/dice.cpp.s
+.PHONY : src/dice.cpp.s
+
+src/game_board.o: src/game_board.cpp.o
+
+.PHONY : src/game_board.o
+
+# target to build an object file
+src/game_board.cpp.o:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/game_board.cpp.o
+.PHONY : src/game_board.cpp.o
+
+src/game_board.i: src/game_board.cpp.i
+
+.PHONY : src/game_board.i
+
+# target to preprocess a source file
+src/game_board.cpp.i:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/game_board.cpp.i
+.PHONY : src/game_board.cpp.i
+
+src/game_board.s: src/game_board.cpp.s
+
+.PHONY : src/game_board.s
+
+# target to generate assembly for a file
+src/game_board.cpp.s:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/game_board.cpp.s
+.PHONY : src/game_board.cpp.s
+
+src/game_menu.o: src/game_menu.cpp.o
+
+.PHONY : src/game_menu.o
+
+# target to build an object file
+src/game_menu.cpp.o:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/game_menu.cpp.o
+.PHONY : src/game_menu.cpp.o
+
+src/game_menu.i: src/game_menu.cpp.i
+
+.PHONY : src/game_menu.i
+
+# target to preprocess a source file
+src/game_menu.cpp.i:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/game_menu.cpp.i
+.PHONY : src/game_menu.cpp.i
+
+src/game_menu.s: src/game_menu.cpp.s
+
+.PHONY : src/game_menu.s
+
+# target to generate assembly for a file
+src/game_menu.cpp.s:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/game_menu.cpp.s
+.PHONY : src/game_menu.cpp.s
+
+src/gift.o: src/gift.cpp.o
+
+.PHONY : src/gift.o
+
+# target to build an object file
+src/gift.cpp.o:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/gift.cpp.o
+.PHONY : src/gift.cpp.o
+
+src/gift.i: src/gift.cpp.i
+
+.PHONY : src/gift.i
+
+# target to preprocess a source file
+src/gift.cpp.i:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/gift.cpp.i
+.PHONY : src/gift.cpp.i
+
+src/gift.s: src/gift.cpp.s
+
+.PHONY : src/gift.s
+
+# target to generate assembly for a file
+src/gift.cpp.s:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/gift.cpp.s
+.PHONY : src/gift.cpp.s
 
 src/logics.o: src/logics.cpp.o
 
@@ -244,6 +325,87 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/message.o: src/message.cpp.o
+
+.PHONY : src/message.o
+
+# target to build an object file
+src/message.cpp.o:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/message.cpp.o
+.PHONY : src/message.cpp.o
+
+src/message.i: src/message.cpp.i
+
+.PHONY : src/message.i
+
+# target to preprocess a source file
+src/message.cpp.i:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/message.cpp.i
+.PHONY : src/message.cpp.i
+
+src/message.s: src/message.cpp.s
+
+.PHONY : src/message.s
+
+# target to generate assembly for a file
+src/message.cpp.s:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/message.cpp.s
+.PHONY : src/message.cpp.s
+
+src/obstacle.o: src/obstacle.cpp.o
+
+.PHONY : src/obstacle.o
+
+# target to build an object file
+src/obstacle.cpp.o:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/obstacle.cpp.o
+.PHONY : src/obstacle.cpp.o
+
+src/obstacle.i: src/obstacle.cpp.i
+
+.PHONY : src/obstacle.i
+
+# target to preprocess a source file
+src/obstacle.cpp.i:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/obstacle.cpp.i
+.PHONY : src/obstacle.cpp.i
+
+src/obstacle.s: src/obstacle.cpp.s
+
+.PHONY : src/obstacle.s
+
+# target to generate assembly for a file
+src/obstacle.cpp.s:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/obstacle.cpp.s
+.PHONY : src/obstacle.cpp.s
+
+src/player.o: src/player.cpp.o
+
+.PHONY : src/player.o
+
+# target to build an object file
+src/player.cpp.o:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/player.cpp.o
+.PHONY : src/player.cpp.o
+
+src/player.i: src/player.cpp.i
+
+.PHONY : src/player.i
+
+# target to preprocess a source file
+src/player.cpp.i:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/player.cpp.i
+.PHONY : src/player.cpp.i
+
+src/player.s: src/player.cpp.s
+
+.PHONY : src/player.s
+
+# target to generate assembly for a file
+src/player.cpp.s:
+	$(MAKE) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/src/player.cpp.s
+.PHONY : src/player.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -257,15 +419,33 @@ help:
 	@echo "... DnD_autogen/mocs_compilation.o"
 	@echo "... DnD_autogen/mocs_compilation.i"
 	@echo "... DnD_autogen/mocs_compilation.s"
-	@echo "... src/game_window.o"
-	@echo "... src/game_window.i"
-	@echo "... src/game_window.s"
+	@echo "... src/dice.o"
+	@echo "... src/dice.i"
+	@echo "... src/dice.s"
+	@echo "... src/game_board.o"
+	@echo "... src/game_board.i"
+	@echo "... src/game_board.s"
+	@echo "... src/game_menu.o"
+	@echo "... src/game_menu.i"
+	@echo "... src/game_menu.s"
+	@echo "... src/gift.o"
+	@echo "... src/gift.i"
+	@echo "... src/gift.s"
 	@echo "... src/logics.o"
 	@echo "... src/logics.i"
 	@echo "... src/logics.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/message.o"
+	@echo "... src/message.i"
+	@echo "... src/message.s"
+	@echo "... src/obstacle.o"
+	@echo "... src/obstacle.i"
+	@echo "... src/obstacle.s"
+	@echo "... src/player.o"
+	@echo "... src/player.i"
+	@echo "... src/player.s"
 .PHONY : help
 
 
