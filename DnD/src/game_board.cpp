@@ -15,38 +15,38 @@ GameBoard::GameBoard(QWidget *parent) {
 	b.changeOneFieldType(4, 4, Type::finnish);
 
 	scene_ = new QGraphicsScene();
-	scene_->setSceneRect(0, 0, size_, size_);
+	scene_->setSceneRect(0, 0, size_ + 600, size_);
 	setBackgroundBrush(QBrush(QImage("../images/new_background.png")));
 	setScene(scene_);
 	setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 	setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-	setFixedSize(size_, size_);
+	setFixedSize(size_ + 600, size_);
 
 	player_ = new Player();
-	player_->setPos(30, 0);
+	player_->setPos(330, 0);
 	player_->setFlag(QGraphicsItem::ItemIsFocusable);
 	player_->setFocus();
 	scene_->addItem(player_);
 
-	dice_ = new Dice();
+	//dice_ = new Dice();
 	//dice_->setPos(750, 250);
 	//scene_->addItem(dice_);
 
 	obstacle_ = new Obstacle();
 	b.changeOneFieldType(2, 1, Type::obstacle);
-	obstacle_->setPos(300, 150);
+	obstacle_->setPos(600, 150);
 	scene_->addItem(obstacle_);
 
 	gift_ = new Gift();
 	b.changeOneFieldType(2, 2, Type::gift);
-	gift_->setPos(300, 300);
+	gift_->setPos(600, 300);
 	scene_->addItem(gift_);
 
 	show();
 }
 
 void GameBoard::keyPressEvent(QKeyEvent *event) {
-	const int start_x = 30, start_y = 0, cell_width = 150, cells_in_row = 5;
+	const int start_x = 330, start_y = 0, cell_width = 150, cells_in_row = 5;
 	int obstacle_width = cell_width;
 	//qDebug() << start_x;
 
@@ -72,7 +72,7 @@ void GameBoard::keyPressEvent(QKeyEvent *event) {
 
 	if (b.getFieldType(b.getCharacterPosition_X(), b.getCharacterPosition_Y()) == Type::finnish and b.canWin()) {
 		Message *text = new Message();
-		text->setPos(30, 300);
+		text->setPos(350, 300);
 		game->scene_->addItem(text);
 	}
 

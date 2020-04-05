@@ -24,7 +24,7 @@ public:
 	Encounter e;
 	Board b;
 	void keyPressEvent(QKeyEvent *event);
-	const int size_ = 750;
+	const int size_ = 800;
 };
 
 #endif //DND_GAME_BOARD_H
